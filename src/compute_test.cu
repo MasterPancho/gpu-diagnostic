@@ -92,7 +92,7 @@ ComputeResult runComputeTest() {
     result.passed = (gflops >= MIN_GFLOPS);
 
     // Print results
-    printf("\n[Compute Throughput Test]\n");
+    printf("\nCompute Throughput Test:\n");
     printf("GFLOPS:     %.2f\n", gflops);
     printf("Duration:   %.3f ms\n", ms);
     printf("Threshold:  %.1f GFLOPS\n", MIN_GFLOPS);
