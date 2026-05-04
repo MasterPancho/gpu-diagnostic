@@ -52,10 +52,10 @@ Release\gpu_diagnostic.exe
        GPU Diagnostic Tool
 ==============================================
 Bandwidth Test Results:
-Measured Bandwidth: 293.14 GB/s
-Duration: 1.83 ms
-Minimum Threshold: 150.00 GB/s
-Test PASSED
+Measured Bandwidth:        293.14 GB/s
+Duration:                  1.83 ms
+Minimum Threshold:         150.00 GB/s
+Test                       PASS
 
 [Compute Throughput Test]
 GFLOPS:     623.86
