@@ -81,7 +81,7 @@ BandwidthResult runBandwidthTest(){
     printf("Measured Bandwidth:     %.2f GB/s\n", result.bandwidth_GBs);
     printf("Duration:               %.2f ms\n", result.duration_ms);
     printf("Minimum Threshold:      %.2f GB/s\n", MIN_BANDWIDTH_GBS);
-    printf("Result:                 %s\n", result.passed ? "PASSED" : "FAILED");
+    printf("Result:                 %s\n", result.passed ? "PASS" : "FAIL");
 
     //Clean up resources
     cudaEventDestroy(start);
